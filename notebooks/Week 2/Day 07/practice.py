@@ -2,19 +2,19 @@
 # sorted_students = sorted(students,key=lambda x:x[1])
 # print(sorted_students)
 
-def manager(func):
-    def wrapper():
-        print("Before function")
-        func()
-        print("After function")
+# def manager(func):
+#     def wrapper():
+#         print("Before function")
+#         func()
+#         print("After function")
 
-    return wrapper
-
-
-@manager
-def hello():
-    print("Hello World")
+#     return wrapper
 
 
-hello()
+# @manager
+# def hello():
+#     print("Hello World")
+
+
+# hello()
 
